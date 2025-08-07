@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <div id="container">
+    <div id="formHead">
+    <h2 id="associate"><span id="box">hi.</span> Association Business Group</h2>
+    <div id="parent">
+    <header id="companyName">
+        <h1>ELFINITY TECHNOLOGIES</h1>
+        <p>CONNECTING YOU TO THE FUTURE</p>
+    </header>
+    <div id="logo">
+        <img src="C:\Users\A Teja Reddy\Downloads\logo_Sob-removebg-preview.png" alt="logo">
+    </div>
+    </div>
+    </div>
+    <h1 id="application">Application for Internship</h1>
+    <form action="thankyou.html">
+        <label for="name">Interviewer Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="date" class="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+    </form>
+    <p id="personalInfo">PERSONAL INFORMATION</p>
+    <form action="thankyou.html">
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="name">Parent/Gaurdian Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="date" class="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="address">Full Address:</label>
+        <textarea name="address" id="address" rows="1" cols="154"></textarea><br><br>        
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode" pattern="\d{6}" required>
+        <label class="status">Status:</label>
+        <input type="radio" id="single" name="status" value="single" required>
+        <label for="single">Single</label>
+        <input type="radio" id="married" name="status" value="married" required>
+        <label for="married">married</label><br><br>
+        <label for="city_country">City/Country:</label>
+        <input type="text" id="city_country" name="city_country" required>
+        <label class="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" maxlength="10" required>
+        <label for="email" class="email">E-Mail:</label>
+        <input type="email" name="email" id="email" required>
+        <p id="eduDetail">EDUCATION DETAILS</p>
+        <label for="qualification">Qualification:</label>
+        <input type="text" id="qualification" name="qualification" required>
+        <label for="year" class="year">Passed Out Year:</label>
+        <input type="text" id="year" name="year" required>       
+        <label for="experience" class="experience">Do You Have Any Experience:</label>
+        <input type="text" id="experience" name="experience" required><br><br>
+        <label for="branch">Branch:</label>
+        <input type="text" id="branch" name="branch" required>
+        <label for="percentage" class="percentage">Percentage:</label>
+        <input type="number" name="percentage" id="percentage" min="0" max="100" step="0.01" required>
+        <label for="college" class="college">College Name:</label>
+        <input type="text" id="college" name="college" required>
+        <p id="projectInfo">PROJECT INFORMATION</p>
+        <label for="applied_for">Project Applied For:</label>
+        <textarea name="applied_for" id="applied_for" rows="1" cols="148"></textarea><br><br>     
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required>
+        <label for="designation" class="designation">Designation:</label>
+        <input type="text" id="designation" name="designation" required><br><br>
+        <label for="date">Joining Date:</label>
+        <input type="date" id="dob" name="dob" required><br><br><br><br>
+        <label for="name">Reference Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="number" class="number">Reference Number:</label>
+        <input type="tel" id="number" name="number" pattern="[0-9]{10}" maxlength="10" required><br><br>
+        <button type="submit">Submit</button><br><br>
+    </form>
+    <footer id="footerPage">
+        <p>+91 84317 90074 - www.schoolofbavita.com - info@elfinity.in - </p>
+        <p>Ground Floor, Tower-2, SJR I PARK, Cove Offices, PHI Tower, Rd Number 9, Vijayanagar, EPIP Zone, Whitefield, Bengaluru, Karnataka 560066</p>
+    </footer>
+    </div>
+</body>
+</html>

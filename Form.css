@@ -1,0 +1,283 @@
+#box{
+    width: 1vw;
+    height: 1vw;
+    color: orange;
+    background-color: orange;
+}
+#formHead{
+    background-color: rgb(222, 236, 246);
+    padding-bottom: 1vw;
+}
+#logo{
+    padding: 1vw;
+    background-color: black;
+}
+#associate{
+    margin-left: 25vh;
+    font-size: xx-large;
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#companyName{
+    font-size: x-large;
+    padding:0px 12vw;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+
+}
+#application{
+    text-align: center;
+    font-size: 3em;
+}
+#personalInfo, #eduDetail, #projectInfo, #footerPage{
+    background-color: rgb(17, 17, 87);
+    color: aliceblue;
+    padding: 1vw;
+}
+#footerPage{
+    text-align: center;
+}
+.date{
+    margin-left: 30vw;
+}
+.dob{
+    margin-left: 23vw;
+}
+.status{
+    margin-left: 34.3vw;
+}
+.gender{
+    margin-left: 31.7vw;  
+}
+.email{
+    margin-left: 35.2vw;
+}
+.year, .experience{
+    margin-left: 12vw;
+}
+.percentage{
+    margin-left: 18vw;
+}
+.college{
+    margin-left: 26.3vw;
+}
+.designation{
+    margin-left: 30.2vw;
+}
+.number{
+    margin-left: 24.3vw;
+}
+#submit{
+    text-align: center;
+    padding: 40vw;
+    box-shadow: 5vw 1vw 5vw 4vw rgb(142, 138, 138);
+    border-radius: 16vw;
+    width: 30vw;
+    margin: 200vw 0vw 0vw 400vw;
+}
+#submit h1{
+    color:  rgb(104, 221, 80);
+}
+#submit h2{
+    color: rgb(195, 106, 34);
+}
+#elf_logo{
+    width: 48vw;
+    height: 48vw;
+    margin-left: 5vw;
+    margin-top: 10vw;
+}
+@media(max-width:600px){
+    #box{
+    width: 1vw;
+    height: 1vw;
+    color: orange;
+    background-color: orange;
+}
+#formHead{
+    background-color: rgb(222, 236, 246);
+    padding-bottom: 1vw;
+}
+#logo{
+    padding: 1vw;
+    background-color: black;
+}
+#associate{
+    margin-left: 25vh;
+    font-size: xx-large;
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#companyName{
+    font-size: x-large;
+    padding:0px 12vw;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+
+}
+#application{
+    text-align: center;
+    font-size: 3em;
+}
+#personalInfo, #eduDetail, #projectInfo, #footerPage{
+    background-color: rgb(17, 17, 87);
+    color: aliceblue;
+    padding: 1vw;
+}
+#footerPage{
+    text-align: center;
+}
+.date{
+    margin-left: 30vw;
+}
+.dob{
+    margin-left: 23vw;
+}
+.status{
+    margin-left: 34.3vw;
+}
+.gender{
+    margin-left: 31.7vw;  
+}
+.email{
+    margin-left: 35.2vw;
+}
+.year, .experience{
+    margin-left: 12vw;
+}
+.percentage{
+    margin-left: 18vw;
+}
+.college{
+    margin-left: 26.3vw;
+}
+.designation{
+    margin-left: 30.2vw;
+}
+.number{
+    margin-left: 24.3vw;
+}
+#submit{
+    text-align: center;
+    padding: 40vw;
+    box-shadow: 5vw 1vw 5vw 4vw rgb(142, 138, 138);
+    border-radius: 16vw;
+    width: 30vw;
+    margin: 200vw 0vw 0vw 400vw;
+}
+#submit h1{
+    color:  rgb(104, 221, 80);
+}
+#submit h2{
+    color: rgb(195, 106, 34);
+}
+#elf_logo{
+    width: 48vw;
+    height: 48vw;
+    margin-left: 5vw;
+    margin-top: 10vw;
+}
+}
+@media(min-width:601px)and(max-width:768px){
+#box{
+    width: 1vw;
+    height: 1vw;
+    color: orange;
+    background-color: orange;
+}
+#formHead{
+    background-color: rgb(222, 236, 246);
+    padding-bottom: 1vw;
+}
+#logo{
+    padding: 1vw;
+    background-color: black;
+}
+#associate{
+    margin-left: 25vh;
+    font-size: xx-large;
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#companyName{
+    font-size: x-large;
+    padding:0px 12vw;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+
+}
+#application{
+    text-align: center;
+    font-size: 3em;
+}
+#personalInfo, #eduDetail, #projectInfo, #footerPage{
+    background-color: rgb(17, 17, 87);
+    color: aliceblue;
+    padding: 1vw;
+}
+#footerPage{
+    text-align: center;
+}
+.date{
+    margin-left: 30vw;
+}
+.dob{
+    margin-left: 23vw;
+}
+.status{
+    margin-left: 34.3vw;
+}
+.gender{
+    margin-left: 31.7vw;  
+}
+.email{
+    margin-left: 35.2vw;
+}
+.year, .experience{
+    margin-left: 12vw;
+}
+.percentage{
+    margin-left: 18vw;
+}
+.college{
+    margin-left: 26.3vw;
+}
+.designation{
+    margin-left: 30.2vw;
+}
+.number{
+    margin-left: 24.3vw;
+}
+#submit{
+    text-align: center;
+    padding: 40vw;
+    box-shadow: 5vw 1vw 5vw 4vw rgb(142, 138, 138);
+    border-radius: 16vw;
+    width: 30vw;
+    margin: 200vw 0vw 0vw 400vw;
+}
+#submit h1{
+    color:  rgb(104, 221, 80);
+}
+#submit h2{
+    color: rgb(195, 106, 34);
+}
+#elf_logo{
+    width: 48vw;
+    height: 48vw;
+    margin-left: 5vw;
+    margin-top: 10vw;
+}
+}
